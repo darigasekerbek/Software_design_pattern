@@ -21,4 +21,12 @@ public class Person {
             System.out.println("No transport for driving.");
         }
     }
+    public void stopTransport(){ // Method to stop transport strategy
+        if (transport != null){
+            transport.stop();
+        }
+        else {
+            System.out.println("No transport to stop.");
+        }
+    }
 }
