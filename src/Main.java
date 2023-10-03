@@ -5,11 +5,11 @@ public class Main {
         person.setTransportStrategy(new Car()); //Person driving a car
         person.rideTransport();
 
-        person.setTransportStrategy(new Boat()); //Person driving a boat
-        person.rideTransport();
+        person.setTransportStrategy(new Boat()); //Person anchoring the boat
+        person.stopTransport();
 
-        person.setTransportStrategy(new Bicycle()); //Person riding a bicycle
-        person.rideTransport();
+        person.setTransportStrategy(new Bicycle()); //Person braking the bicycle
+        person.breakDownTransport();
 
     }
 }
