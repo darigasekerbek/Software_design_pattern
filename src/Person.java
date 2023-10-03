@@ -10,10 +10,10 @@ public class Person {
         }
         return instance;
     }
-    public void setTransportStrategy(TransportStrategy str){ //Method for setting transport strategy
+    public void setTransportStrategy(TransportStrategy str){ // Method for setting transport strategy
         this.transport = str;
     }
-    public void rideTransport(){
+    public void rideTransport(){ // Method for using transport strategy
         if (transport != null){
             transport.ride();
         }
